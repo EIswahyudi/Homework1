@@ -42,9 +42,14 @@ div#class{
 }
 
 h2{
-  color: #4aaaa5; width: 260px; height: 50px;
+  color: #4aaaa5; width: 260px; height: 40px;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0px 0px 0px 80px;
+  text-decoration-line:solid #777777 4px;
+}
+hr{ 
+  margin: 0px 10px 10px 10px;
+  background-color: solid gray 6px;
 }
 
 body {
