@@ -85,6 +85,11 @@ input {
   padding: 10px;
   margin: 10px;
 }
+input[type=text] {
+  width: 84.5%;
+  padding: 60px;
+  margin: 10px;
+}
 
 input[type=submit] {
   width: 10%;
@@ -98,17 +103,71 @@ input[type=submit] {
 }
 
 div#section {
-
-  border-top: solid #4aaaa5 8px;
-  border-bottom: solid hsl(0, 2%, 24%) 20px;
-  background: hsl(0, 2%, 24%);
-  margin:0;
+  background-color:rgb(82, 77, 77);
+  margin: 0px;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  text-align: center
 }
 
 h5{
   color:white;
 }
 
-div#section {
-  text-align: center
+.child {
+  background-color:#4aaaa5;
+  color: white;
+  margin: 0px 364px 0px 327px;
+  text-align: center;
+  position: relative;
+  right:33%;
+  top: 118px;
+}
+
+.child2 {
+  background-color:#4aaaa5;
+  color: white;
+  margin: 0px 75px 0px 616px;
+  text-align: center;
+  position: relative;
+  right:13%;
+  top: 70px;
+}
+
+.child3 {
+  background-color:#4aaaa5;
+  color: white;
+  margin: 190px 75px 100px 616px;
+  text-align: center;
+  position: relative;
+  right: 12.3%;
+  top: 100px;
+}
+
+.parent2 {
+  position: relative;
+  right:-20%;
+  top:-52px;
+}
+
+.parent3 {
+  position: relative;
+  top:150px;
+  right: 90px;
+  
+}
+
+.parent4{
+  position: relative;
+  top:-150px;
+}
+
+.child4{
+  background-color:#4aaaa5;
+  color: white;
+  margin: 190px 75px 100px 616px;
+  text-align: center;
+  position: relative;
+  right: 63%;
+  top: -115px;
 }
