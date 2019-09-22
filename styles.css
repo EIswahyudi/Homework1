@@ -75,6 +75,28 @@ img {float: left;
   margin: 10px;
 }
 
+label{
+  color: #777777;
+  padding: 10px;
+}
+
+input {
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color:#4aaaa5;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
 div#section {
 
   border-top: solid #4aaaa5 8px;
